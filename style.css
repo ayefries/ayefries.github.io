@@ -67,6 +67,7 @@
     align-content: center;
     grid-gap: 20px;
     scroll-behavior: smooth;
+    margin: 50px;
   }
   div.container {
     height: 100%;
@@ -105,6 +106,9 @@ box-shadow: 0px 10px 32px -14px rgba(71,71,71,0.6);
   .item-6 {
     background-color: #16a085;
   }
+  .item-7 {
+    background-color: #2e3952;
+  }
   .grid-desc {
     color: #ebf5fb9f;
   }
@@ -112,9 +116,8 @@ box-shadow: 0px 10px 32px -14px rgba(71,71,71,0.6);
     text-decoration: none;
     color: inherit;
   }
-  @media only screen and (min-width: 400px) {
+  @media only screen and (min-width: 446px) {
     div.grid {
-      margin: 50px;
       grid-template-rows: 140px 140px 140px;
       grid-template-columns: 140px 140px 140px;
     }
