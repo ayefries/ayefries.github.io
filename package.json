@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "postcss ./imports.css -o ./tailwind.css"
+    "build": "postcss ./src/imports.css -o ./public/tailwind.css",
+    "prod": "NODE_ENV=production postcss ./src/imports.css -o ./public/tailwind.css"
   },
   "keywords": [],
   "author": "",
