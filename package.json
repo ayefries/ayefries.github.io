@@ -1,0 +1,17 @@
+{
+  "name": "ayefries-take-viii",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "postcss ./imports.css -o ./tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.3.3",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.8"
+  }
+}
